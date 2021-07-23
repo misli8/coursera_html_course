@@ -1,0 +1,81 @@
+body{
+    font-family: 'Andika New Basic','Langar', 'Source Sans Pro', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    color: black;
+}
+h1{
+    font-size: 175%;
+    text-align: center;
+    margin-top: 1.2vw;
+    margin-bottom: 1.4vw;
+}
+h2{
+    font-size: 125%;
+    margin: 0%;
+    padding: 0%;
+}
+.chicken, .beef, .sushi{
+    position: relative;
+    border: 1px solid black;
+    margin: 1%;
+}
+.chicken_header, .beef_header, .sushi_header{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    min-width: 29%;
+    min-height: 9%;
+    text-align: center;
+    border: 1px solid black;
+}
+.chicken_header{
+    background-color: pink;
+}
+.beef_header{
+    background-color: red;
+    color: whitesmoke;
+}
+.sushi_header{
+    background-color: wheat;
+}
+.menu{
+width: 98%;
+}
+p{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 8% 5% 5% 3%;
+    background-color: gray;
+}
+@media (min-width: 992px){
+    .menu div{
+        float: left;
+    }
+    .chicken{
+        max-width: 31%;
+    }
+    .beef{
+        max-width: 31%;
+    }
+    .sushi{
+        max-width: 31%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .menu div{
+        float: left;
+    }
+    .chicken{
+        width: 47%;
+   }
+   .beef{
+        width: 47%;
+   }
+   .sushi{
+       clear: left;
+       max-width: 96%;
+   }
+}
