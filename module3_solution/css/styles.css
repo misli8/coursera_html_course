@@ -1,0 +1,39 @@
+body{
+    font-family: 'Andika New Basic','Langar', 'Source Sans Pro', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    color: black;
+}
+h1{
+    margin: -6.5% 0% 0% 0%;
+    padding-left: 0 ;
+    color: gray;
+}
+h3{
+    font-size: 125%;
+    padding-top: 2%;
+    margin-bottom: 0;
+}
+.chicken_header, .beef_header, .sushi_header{
+    text-align: center;
+}
+p, h3, a.inside_menu{
+    background-color: gray;   
+}
+p{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+p.text {
+    padding: 1% 5% 1% 3%;
+}
+.inside_menu{
+    padding: 2%;
+    margin-bottom: 100px;
+}
+a, a:hover, a:link{
+    text-decoration: none;
+    color: inherit;
+}

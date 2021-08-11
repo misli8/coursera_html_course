@@ -4,9 +4,14 @@ body{
     box-sizing: border-box;
     color: black;
 }
+#header-nav {
+
+    background-color: gray;
+}
 h1{
+    position: absolute;
+    left: 3%;
     font-size: 175%;
-    text-align: center;
     margin-top: 1.2vw;
     margin-bottom: 1.4vw;
 }
@@ -15,6 +20,13 @@ h2{
     margin: 0%;
     padding: 0%;
 }
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
 .chicken, .beef, .sushi{
     position: relative;
     border: 1px solid black;
