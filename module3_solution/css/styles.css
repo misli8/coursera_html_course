@@ -14,9 +14,7 @@ h3{
     padding-top: 2%;
     margin-bottom: 0;
 }
-.chicken_header, .beef_header, .sushi_header{
-    text-align: center;
-}
+
 p, h3, a.inside_menu{
     background-color: gray;   
 }
